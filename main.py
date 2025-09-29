@@ -8,7 +8,7 @@ import pyautogui
 
 # ---------------- CONFIG ---------------- 
 USERNAME = "administrator"
-FIRST_PASSWORD = "supp0rt_n@n0X"
+FIRST_PASSWORD = "supp0rt_n@n0X" 
 SECOND_PASSWORD = "np!_n@n0X_np!"
 
 RADMIN_PATHS = [
@@ -146,6 +146,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = AutoUI(root)
     root.mainloop()
+
 
 
 
