@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import pyautogui 
 
-# ---------------- CONFIG ----------------
+# ---------------- CONFIG ---------------- 
 USERNAME = "administrator"
 FIRST_PASSWORD = "supp0rt_n@n0X"
 SECOND_PASSWORD = "np!_n@n0X_np!"
@@ -146,5 +146,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = AutoUI(root)
     root.mainloop()
+
 
 
