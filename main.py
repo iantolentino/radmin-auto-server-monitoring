@@ -7,9 +7,9 @@ from tkinter import ttk, messagebox
 import pyautogui   
 
 # ---------------- CONFIG ---------------- 
-USERNAME = "administrator"
-FIRST_PASSWORD = "supp0rt_n@n0X" 
-SECOND_PASSWORD = "np!_n@n0X_np!"
+USERNAME = "your_username_here"
+FIRST_PASSWORD = "your_password_here" 
+SECOND_PASSWORD = "your_password_here"
 
 RADMIN_PATHS = [
     r"C:\Program Files\Radmin Viewer 3\radmin.exe",
@@ -146,6 +146,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = AutoUI(root)
     root.mainloop()
+
 
 
 
