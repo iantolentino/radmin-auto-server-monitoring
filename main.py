@@ -1,7 +1,7 @@
 import os
 import time
 import subprocess
-import threading 
+import threading  
 import tkinter as tk 
 from tkinter import ttk, messagebox
 import pyautogui   
@@ -146,6 +146,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = AutoUI(root)
     root.mainloop()
+
 
 
 
