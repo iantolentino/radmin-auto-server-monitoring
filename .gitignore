@@ -1,0 +1,57 @@
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+radmin_automation.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Credentials
+config_local.py
+.env
+
+# Virtual Environment
+venv/
+env/
+EOF
+
+# Commit .gitignore
+git add .gitignore
+git commit -m "chore: Add .gitignore for Python project
+
+- Exclude Python cache files
+- Exclude virtual environments
+- Exclude IDE files
+- Exclude sensitive credential files
+- Exclude log files"
