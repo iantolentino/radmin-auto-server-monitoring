@@ -1,6 +1,3 @@
-Here's the comprehensive README.md file:
-
-```markdown
 # Radmin Automation Tool
 
 A Python-based automation tool for Radmin Viewer that automates remote desktop connections, credential entry, and Event Viewer access.
@@ -337,14 +334,3 @@ For issues or questions:
 ---
 
 **Disclaimer**: This tool is for legitimate administrative purposes only. Ensure you have proper authorization before connecting to any remote systems. The authors assume no liability for misuse of this software.
-```
-
-This README provides comprehensive documentation covering:
-- Overview and features
-- Installation instructions
-- Detailed configuration guide
-- Usage instructions
-- Project structure
-- Troubleshooting
-- Security considerations
-- License and support information
