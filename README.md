@@ -316,7 +316,7 @@ SOFTWARE.
 ## Support
 
 For issues or questions:
-1. Check the troubleshooting section above
+1. Check the troubleshooting section above 
 2. Review the log file for error messages
 3. Open an issue on GitHub with:
    - Error description
